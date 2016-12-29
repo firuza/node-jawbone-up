@@ -271,6 +271,10 @@ module.exports = function(options) {
       'delete': create_deletor('meals'),
       update: create_updater('meals')
     },
+    /** @class heartrates */
+    heartrates: {
+      get: create_getter_xid('heartrates')
+    },
     /** @class events */
     events: {
       /** @class events.body */
